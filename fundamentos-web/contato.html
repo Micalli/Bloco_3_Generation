@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>  <!--target="_blank"-->
         </li>
@@ -17,35 +18,61 @@
         </li>
     </ul>
 
-    <h1>Contatos</h1>
+    <h1 class="center">Contatos</h1>
 
-    <form>
-        <label for="nome">Nome:</label> <br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">Email:</label> <br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto:</label> <br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5" ></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
+    <div class="container">
+        <div>
+            <form>
+                <label for="nome">Nome:</label> <br>
+                <input type="text" id="nome">
+                <br>
+                <br>
+                <label for="email">Email:</label> <br>
+                <input type="email" id="email">
+                <br>
+                <br>
+                <label for="assunto">Assunto:</label> <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5" ></textarea>
+                <br>
+                <br>
+                <button>Enviar</button>
+            </form>
+        </div>
+        <div class="ml-50 mb-30">
+            <p>Endereço</p>
+            <p>Tchurosbango Tchudosbago - Rua dos Bombeiros - Paraíso</p>
+            <p>São Paulo - SP</p>
+    
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29266.34543242904!2d-46.6484138906733!3d-23.521955424335697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cfad078e43%3A0x5e221bef7ca30bbd!2sTchurosbango%20Tchudosbago!5e0!3m2!1spt-BR!2sbr!4v1618585745368!5m2!1spt-BR!2sbr" 
+            width="400" 
+            height="300" 
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"></iframe>
+        </div>
+    </div>
 
-        <p>Endereço</p>
-        <p>Tchurosbango Tchudosbago - Rua dos Bombeiros - Paraíso</p>
-        <p>São Paulo - SP</p>
+    <hr>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29266.34543242904!2d-46.6484138906733!3d-23.521955424335697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cfad078e43%3A0x5e221bef7ca30bbd!2sTchurosbango%20Tchudosbago!5e0!3m2!1spt-BR!2sbr!4v1618585745368!5m2!1spt-BR!2sbr" 
-        width="400" 
-        height="300" 
-        style="border:0;"
-        allowfullscreen=""
-        loading="lazy"></iframe>
+    <footer class= "center">
+        <div class="container ">
 
-    </form>
+            <a href="https://www.facebook.com/brunoo.micalli" target="_blank"><img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do Facebook"></a>
+
+            <a href="https://www.instagram.com/brunomicalli/" target="_blank"><img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do instagram"></a>
+            
+            <a href="https://www.linkedin.com/in/brunomicalli/" target="_blank"><img class="tm-social p-30 " src="assets/img/linkedin.png" alt="Logo do linkedin"></a>
+            
+
+
+        </div>
+
+        <p>
+            Todos direitos reservados: Bruno Micalli &copy;
+        </p>
+        
+    </footer>
+
     
 </body>
 </html>
